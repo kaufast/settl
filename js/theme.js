@@ -1,9 +1,9 @@
 // js Document
 
 // Created on   : 15/20/2024.
-// Theme Name   : PlanBee - Creative Saas & Software HTML5 Template
+// Theme Name   : PlanBee - Relocation to Europe Made Easy
+
 // Version      : 1.0.
-// Developed by : (me@heloshape.com) / (www.me.heloshape.com)
 
 
 (function($) {
