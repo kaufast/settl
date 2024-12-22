@@ -324,53 +324,54 @@
 			<div class="container">
 				<div class="form-style-one mt-120 lg-mt-80">
 					<h3 class="font-Montserrat text-center pb-20">Any inquiries? Send us a message</h3>
-					<form action="https://usebasin.com/f/c0f68efa8d53" method="POST" enctype="multipart/form-data" id="contact-form">
+
+
+
+					<form action="https://usebasin.com/f/c0f68efa8d53" method="POST" data-basin-form>
 						<div class="messages"></div>
 						<div class="row controls">
 						  <!-- Name Field -->
 						  <div class="col-sm-6">
 							<div class="input-group-meta form-group mb-30">
 							  <label for="name">Name*</label>
-							  <input type="text" placeholder="Full Name*" name="name" required="required" data-error="Name is required.">
-							  <div class="help-block with-errors"></div>
+							  <input id="name" type="text" name="name" placeholder="Full Name*" required>
 							</div>
 						  </div>
 						  <!-- Email Field -->
 						  <div class="col-sm-6">
 							<div class="input-group-meta form-group mb-30">
 							  <label for="email">Email*</label>
-							  <input type="email" placeholder="Email Address*" name="email" required="required" data-error="Valid email is required.">
-							  <div class="help-block with-errors"></div>
+							  <input id="email" type="email" name="email" placeholder="Email Address*" required>
 							</div>
 						  </div>
 						  <!-- Telephone Field -->
 						  <div class="col-sm-6">
 							<div class="input-group-meta form-group mb-30">
 							  <label for="phone">Telephone</label>
-							  <input type="text" placeholder="Telephone number (not required...)" name="phone" data-error="Telephone number is optional.">
-							  <div class="help-block with-errors"></div>
+							  <input id="phone" type="text" name="phone" placeholder="Telephone (optional)">
 							</div>
 						  </div>
 						  <!-- Subject Field -->
-						  <div class="col-6">
-							<div class="input-group-meta form-group mb-35">
+						  <div class="col-sm-6">
+							<div class="input-group-meta form-group mb-30">
 							  <label for="subject">Subject (optional)</label>
-							  <input type="text" placeholder="Write your subject..." name="subject">
+							  <input id="subject" type="text" name="subject" placeholder="Write your subject (optional)">
 							</div>
 						  </div>
 						  <!-- Message Field -->
 						  <div class="col-12">
 							<div class="input-group-meta form-group mb-35">
-							  <textarea placeholder="Write your message here..." name="message" required="required" data-error="Please, leave us a message."></textarea>
-							  <div class="help-block with-errors"></div>
+							  <label for="message">Message*</label>
+							  <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
 							</div>
 						  </div>
 						  <!-- Submit Button -->
-						  <div class="col-12 mt-20">
-							<button type="submit" value="Submit" class="btn-five tran3s m-auto">Send Message</button>
+						  <div class="col-12">
+							<button type="submit" class="btn-five tran3s m-auto">Send Message</button>
 						  </div>
 						</div>
 					  </form>
+					  
 					  
 				</div> <!-- /.form-style-one -->
 			</div>
