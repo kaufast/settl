@@ -1,88 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
-  <url>
-    <loc>https://settleu.eu/</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <!-- Core Pages -->
-  <url>
-    <loc>https://settleu.eu/faq-housing.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/visa-services.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/housing-services.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/news.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/faq-visas.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Blog Index -->
-  <url>
-    <loc>https://settleu.eu/blog/</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Individual Blog Articles -->
-  <url>
-    <loc>https://settleu.eu/blog/dealing-with-culture-shock-in-spain.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/blog/how-to-open-bank-account-in-spain.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/blog/living-digital-nomad-spain.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/blog/registering-locally-in-spain-empadronamiento.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/blog/step-by-step-guide-finding-housing-in-spain.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://settleu.eu/blog/step-by-step-guide-spanish-visa.html</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://settleu.eu/blog</loc>
+  <lastmod>2024-12-22T21:04:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/index.html</loc>
+  <lastmod>2024-12-22T21:01:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/visa-services.html</loc>
+  <lastmod>2024-12-22T21:01:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/housing-services.html</loc>
+  <lastmod>2024-12-22T21:01:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/faq-visas.html</loc>
+  <lastmod>2024-12-22T21:01:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/faq-housing.html</loc>
+  <lastmod>2024-12-22T21:01:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/contact.html</loc>
+  <lastmod>2024-12-22T21:01:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/about-us.html</loc>
+  <lastmod>2024-12-22T21:01:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/blog/step-by-step-guide-spanish-visa.html</loc>
+  <lastmod>2024-12-22T21:04:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/blog/dealing-with-culture-shock-in-spain.html</loc>
+  <lastmod>2024-12-22T21:04:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/blog/registering-locally-in-spain-empadronamiento-guide.html</loc>
+  <lastmod>2024-12-22T21:04:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/blog/living-digital-nomad-spain.html</loc>
+  <lastmod>2024-12-22T21:04:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/blog/step-by-step-guide-finding-housing-in-spain.html</loc>
+  <lastmod>2024-12-22T21:04:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://settleu.eu/news.html</loc>
+  <lastmod>2024-12-22T21:01:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
