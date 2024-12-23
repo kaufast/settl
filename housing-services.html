@@ -3,40 +3,108 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="keywords" content="	agency, ai, ai writer, app landing, creative, crm, html template, hosting, mobile app, multipurpose, payment, saas, software, support">
-	<meta name="description" content="Settleu stands out as a meticulously crafted SAAS template available in html5 versions, perfect for mobile apps, software, and SAAS websites.">
-    <meta property="og:site_name" content="Homy">
-    <meta property="og:url" content="https://creativegigstf.com">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Settleu - EU Relocation, Visa Assistance & Housing Solutions | Simplify Your Move">
-	<meta name='og:image' content='images/assets/ogg.png'>
-	<!-- For IE -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- For Resposive Device -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- For Window Tab Color -->
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#0D1A1C">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#0D1A1C">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#0D1A1C">
-	<title>Settleu - EU Relocation, Visa Assistance & Housing Solutions | Simplify Your Move</title>
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
-	<!-- Main style sheet -->
-	<link rel="stylesheet" type="text/css" href="css/style.min.css" media="all">
-	<!-- responsive style sheet -->
-	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- Fix Internet Explorer ______________________________________-->
-	<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="vendor/html5shiv.js"></script>
-			<script src="vendor/respond.js"></script>
-		<![endif]-->
+	<!-- Title & Description -->
+	<title>Housing Services | SettleU - Find Your Perfect Home in Spain & EU</title>
+	<meta name="description" content="SettleU provides expert guidance for renting or buying a home in Spain and across the EU. Discover tailored housing solutions and seamless support.">
+
+	<!-- Keywords for SEO -->
+	<meta name="keywords" content="housing services, property search, relocation, rent in Spain, buy a house in EU, housing solutions, legal support for housing, expert guidance">
+	<meta name="robots" content="index, follow">
+
+	<!-- Open Graph Metadata -->
+	<meta property="og:site_name" content="SettleU">
+	<meta property="og:url" content="https://settleu.eu/housing-services.html">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Housing Services | SettleU - Your Gateway to a New Home in Spain & EU">
+	<meta property="og:description" content="Simplify your home search with SettleU. Expert housing solutions tailored for relocation to Spain and the EU.">
+	<meta property="og:image" content="https://settleu.eu/images/assets/housing_ogg.png">
+
+	<!-- Twitter Card Metadata -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Housing Services by SettleU - Find Your Dream Home">
+	<meta name="twitter:description" content="Discover expert guidance for renting or buying a home in Spain & EU. SettleU simplifies your housing journey.">
+	<meta name="twitter:image" content="https://settleu.eu/images/assets/housing_ogg.png">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="https://settleu.eu/images/fav-icon/icon.png">
+
+	<!-- Theme Colors -->
+	<meta name="theme-color" content="#0D1A1C">
+	<meta name="msapplication-navbutton-color" content="#0D1A1C">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#0D1A1C">
+
+	<!-- Preloading Critical Assets -->
+	<link rel="preload" href="css/style.min.css" as="style">
+	<link rel="preload" href="css/bootstrap.min.css" as="style">
+	<link rel="preload" href="js/theme.js" as="script">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="css/style.min.css" media="all">
+	<link rel="stylesheet" href="css/responsive.css" media="all">
+
+	<!-- JSON-LD Structured Data -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"name": "SettleU Housing Services",
+			"url": "https://settleu.eu/housing-services.html",
+			"description": "SettleU simplifies the housing journey in Spain and the EU with tailored solutions for renting or buying a home.",
+			"logo": "https://settleu.eu/images/fav-icon/icon.png",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Calle de la Ribera",
+				"addressLocality": "Barcelona",
+				"addressRegion": "Catalonia",
+				"postalCode": "08003",
+				"addressCountry": "Spain"
+			},
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "+34 685 535 263",
+				"contactType": "customer service",
+				"availableLanguage": ["English", "Spanish"]
+			},
+			"areaServed": {
+				"@type": "Country",
+				"name": "Spain"
+			},
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Housing Services",
+				"itemListElement": [
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Property Search",
+							"description": "Find your ideal home with tailored listings and expert advice."
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Legal Assistance",
+							"description": "Navigate contracts and paperwork with professional legal support."
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Financing Guidance",
+							"description": "Access mortgage options and financial planning for your home purchase."
+						}
+					}
+				]
+			}
+		}
+	</script>
 </head>
 
 <body>
