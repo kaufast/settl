@@ -334,7 +334,7 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: #8A42FF;
+  background: #90ffbd;
   transition: all 0.3s ease-in-out;
 }
 .scroll-top:after {
@@ -2151,7 +2151,7 @@ iframe {
   height: 100%;
   top: 0;
   right: 0;
-  background: #E1FF2D;
+  background: #BDF7E6;
   border-radius: 30px;
   z-index: -1;
   transition: all 0.3s ease-in-out 0s;
@@ -4174,7 +4174,7 @@ iframe {
   padding-left: 10px;
 }
 .video-banner-one .bg-wrapper .video-btn:hover {
-  background: #9AFFFF;
+  background: #ffd80b;
 }
 
 .block-feature-one .img-holder .card_01 {
